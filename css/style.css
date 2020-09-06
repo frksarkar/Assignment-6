@@ -1,0 +1,129 @@
+	/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700&family=Ubuntu:wght@300&display=swap');
+	
+	/*global css here*/
+*{
+	margin: 0;
+	padding: 0;
+}
+p,h1,h2,h3,h4,h5,h6{font-family: 'Playfair Display', serif;
+		color: #626262;
+		font-size: 30px;
+}
+a{font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+p{
+	font-size: 14px;
+}
+span{font-family: 'Ubuntu', sans-serif;
+	color: #cbc6bc;
+	font-size: 14px;
+}
+
+
+/*<!-- header part css -->*/
+.nav-item{
+	margin-left: 90px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/*main-blog part css*/
+.row-2{
+	margin-top: 114px;
+}
+.row-2 span{
+	margin: 22px 0;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.row-2 h2{
+	margin-bottom: 32px;
+}
+.row-2 .col-md-6{
+	margin-bottom: 116px;
+}
+
+/*subscription part css*/
+
+.subscription{
+	background: #f0f0f0;
+}
+.subscription .sub-col{
+	padding: 50px 0;
+	margin-left: 33%;
+}
+.subscription h1{
+	margin-bottom: 12%;
+	color: #333333;
+}
+.subscription input{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid;
+	width: 66%;
+    height: 40px;
+    font-family: 'Playfair Display', serif;
+}
+input::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+}
+input:focus{
+	outline: none;
+}
+.subscription button{
+	border: none;
+}
+.subscription button:focus {
+	outline: none;
+}
+.subscription img{
+	width: 32px;
+	margin-left: -32px;
+}
+
+/*bottom post gallery css*/
+
+.bottom-blog{
+	margin: 100px 0;
+}
+.bottom-blog button{
+    border: 1px solid;
+    background: transparent;
+    padding: 16px 42px;
+    font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 20px;
+}
+.bottom-blog button:focus{
+	outline: none;
+}
+.Load-more{
+	text-align: center;
+}
+
+/*footer part css*/
+
+.footer-sec{
+	background: #f0f0f0;
+	padding: 34px 0;
+	font-weight: 600;      
+}
+.footer-sec span{
+	font-family: 'Playfair Display', serif;
+	color: #202020;
+	margin-right: 14px;
+}
+.socil-icon a span{
+	color: #101010;
+    font-family: 'Playfair Display', serif;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.footer-sec i{
+	color: #626262;
+    margin-left: 15px; 
+}
